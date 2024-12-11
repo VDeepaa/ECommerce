@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Page</title>
+    <!--Googel Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!--My Font-->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!--font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>Meesho</h1>
+        <div class="navbar-links">
+            <li class="links"><a href="index.html">Home</a></li>
+            <li class="links"><a href="collection.html">Collection</a></li>
+            <li class="links"><a href="contact.html">Contact</a></li>
+        </div>
+        <div class="nav-menu-bar">
+            <i class="fa-solid fa-bars" onclick="shownavbar()"></i>
+        </div>
+    </nav>
+
+
+    <!--Site navbar-->
+    <div class="site-navbar">
+        <p style="text-align: right;"><i class="fa-solid fa-xmark" onclick="closenavbar()"></i></p>
+
+        <div class="site-navbar-links">
+            <b>
+                <li class="site-links"><a href="index.html">Home</a></li>
+                <li class="site-links"><a href="collection.html">Collection</a></li>
+                <li class="site-links"><a href="contact.html">Contact</a></li>
+            </b>
+        </div>
+    </div>
+
+
+    <!--Product-->
+    <div class="product">
+        <form class="product-service">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+    </div>
+
+    <div class="products" id="products">
+        <div class="search-box">
+            <img src="E:\E Commerce\img9.png">
+            <p>Grey T-shirt</p>
+        </div>
+        <div class="search-box">
+            <img src="E:\E Commerce\img10.png">
+            <p>Black T-shirt</p>
+        </div>
+        <div class="search-box">
+            <img src="E:\E Commerce\img11.png">
+            <p>Group T-shirt</p>
+        </div>
+        <div class="search-box">
+            <img src="E:\E Commerce\img12.png">
+            <p>Cover Coat</p>
+        </div>
+        <div class="search-box">
+            <img src="E:\E Commerce\img13.png">
+            <p>Makeup-Brush</p>
+        </div>
+        <div class="search-box">
+            <img src="E:\E Commerce\img14.png">
+            <p>Makeup-Pouch</p>
+        </div>
+        <div class="search-box">
+            <img src="E:\E Commerce\img15.png">
+            <p>Makeup-Kit</p>
+        </div>
+        <div class="search-box">
+            <img src="E:\E Commerce\img16.png">
+            <p>Compact Powder</p>
+        </div>
+    </div>
+
+
+
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2>Meesho</h2>
+                <p>Whether you're looking for fashion, electronics, or daily essentials, online platforms provide
+                    competitive pricing, customer reviews, and personalized recommendations to enhance your shopping
+                    experience. </p>
+            </div>
+            <div class="footer-box-2">
+                <ul>
+                    <li>
+                        <h3>Contact Us</h3>
+                        <p>📧 Email: support@yourstore.com</p>
+                        <p>📞 Phone: +1 (800) 123-4567</p>
+                        <p>📍 Address: 123 Shopping Lane, Retail City, Country</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3>Follow Us</h3>
+                        <i class="fa-brands fa-instagram" style="color:orange;"></i>
+                        <i class="fa-brands fa-twitter" style="color:royalblue;"></i>
+                        <i class="fa-brands fa-facebook" style="color:royalblue;"></i>
+                        <i class="fa-brands fa-linkedin" style="color:royalblue;"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</body>
+<script src="collection.js"></script>
+
+</html>
